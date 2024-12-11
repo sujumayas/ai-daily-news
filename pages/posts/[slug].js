@@ -1,7 +1,6 @@
-// pages/posts/[slug].js
 import { getPostBySlug, getAllPosts } from '../../lib/api';
 import { AlertTriangle, TrendingUp, Cpu, Link2, Shield } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '../../components/ui/card';
 
 const ImpactBadge = ({ impact }) => {
   const baseClasses = "px-2 py-1 rounded-full text-sm font-medium";
