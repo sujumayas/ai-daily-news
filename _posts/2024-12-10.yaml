@@ -1,0 +1,40 @@
+metadata:
+  date: '2024-12-10'
+  title: 'AI News Update - December 10'
+  excerpt: 'Major developments in model performance benchmarks and market competition'
+  slug: '2024-12-10'
+
+dashboard:
+  marketMoves:
+    - title: 'UK Regulators Scrutinize AI Partnership Deals'
+      detail: 'British antitrust review of Microsoft-Amazon AI collaborations'
+      impact: 'high'
+    - title: 'Tech Giants Increase AI Investment Stakes'
+      detail: 'Accelerated funding in AI startups for technology access'
+      impact: 'medium'
+    - title: 'Mistral Expands Open-Source AI Offerings'
+      detail: 'New features and model updates challenge proprietary systems'
+      impact: 'medium'
+
+  modelPerformance:
+    - title: 'Gemini 1.5 Pro Sets New Benchmark Records'
+      detail: 'Outperforms GPT-4 and Claude-3 in standard tests'
+      impact: 'high'
+    - title: 'Claude 3 Excels in Output Quality'
+      detail: 'Leading position in safety features and response accuracy'
+      impact: 'medium'
+    - title: 'GPT-4 Maintains Speed Advantage'
+      detail: 'Superior performance in efficiency metrics'
+      impact: 'medium'
+
+  keyIntegrations:
+    - title: 'Microsoft Launches AI-Powered Copilot+ PCs'
+      detail: 'New hardware optimized for AI applications'
+    - title: 'Cross-Platform AI API Standards Emerge'
+      detail: 'Unified access protocols for major AI providers'
+
+  challenges:
+    - title: 'Deepfake Concerns in Political Sphere'
+      detail: 'Rising incidents of AI-generated campaign materials'
+    - title: 'Model Evaluation Metrics Need Standardization'
+      detail: 'Inconsistent benchmarking across different AI systems'
