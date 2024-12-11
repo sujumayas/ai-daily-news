@@ -1,44 +1,46 @@
 metadata:
   date: '2024-12-11'
   title: 'AI News Update - December 11, 2024'
-  excerpt: 'Latest updates on AI models, market movements, and industry challenges'
+  excerpt: 'Gemini 1.5 Pro claims benchmark superiority over GPT-4 and Claude-3, while regulatory scrutiny intensifies for Big Tech AI partnerships'
   slug: '2024-12-11'
 
 dashboard:
   marketMoves:
-    - title: "Microsoft-OpenAI Partnership Under Scrutiny"
-      detail: "UK regulators examining AI partnerships"
-      impact: "high"
-    - title: "Mistral AI Expands Capabilities"
-      detail: "Launched new model and features competing with ChatGPT"
-      impact: "medium"
-    - title: "Tech Giants' AI Investment Surge"
-      detail: "Billions invested in AI startups"
-      impact: "high"
+    - title: 'UK Regulators Scrutinize Microsoft-Amazon AI Partnerships'
+      detail: 'British antitrust watchdogs investigate Big Tech AI collaborations'
+      impact: 'high'
+      url: 'https://www.cnbc.com/2024/04/24/microsoft-amazon-ai-partnerships-face-scrutiny-from-british-regulators.html'
+    - title: 'Anthropic Launches AI Agents for Complex Tasks'
+      detail: 'Amazon-backed startup challenges OpenAI with advanced automation capabilities'
+      impact: 'high'
+      url: 'https://www.cnbc.com/2024/10/22/anthropic-announces-ai-agents-for-complex-tasks-racing-openai.html'
+    - title: 'Mistral Releases 281GB Open-Source AI Model'
+      detail: 'French startup challenges industry giants with powerful open model'
+      impact: 'medium'
+      url: 'https://www.zdnet.com/article/ai-startup-mistral-launches-a-281gb-ai-model-to-rival-openai-meta-and-google/'
 
   modelPerformance:
-    - title: "Gemini 1.5 Pro Leads Benchmarks"
-      detail: "Outperforms GPT-4 and Claude-3"
-      impact: "high"
-    - title: "Claude 3 Opus Launched"
-      detail: "Superior output quality and safety"
-      impact: "high"
-    - title: "GPT-4 Turbo Updates"
-      detail: "Improved speed and efficiency"
-      impact: "medium"
+    - title: 'Gemini 1.5 Pro Tops AI Benchmark Rankings'
+      detail: 'Google's latest model outperforms GPT-4 and Claude-3'
+      impact: 'high'
+      url: 'https://cointelegraph.com/news/google-gemini-ai-model-dominates-benchmarks-beats-gpt-4o-claude-3'
+    - title: 'GitHub Copilot Expands Beyond OpenAI'
+      detail: 'Developer tool adds Claude 3.5 and Gemini support'
+      impact: 'medium'
+      url: 'https://arstechnica.com/ai/2024/10/github-copilot-moves-beyond-openai-models-to-support-claude-3-5-gemini/'
 
   keyIntegrations:
-    - title: "Microsoft AI-Powered PCs"
-      detail: "Launch of Copilot+ systems"
-    - title: "Google's Gemini API"
-      detail: "Extended API access"
-    - title: "Anthropic's Claude 3 Platform"
-      detail: "New developer tools"
+    - title: 'Microsoft Launches AI-Powered Copilot+ PCs'
+      detail: 'New hardware optimized for AI applications'
+      url: 'https://lookai.vc/ai-news-may-2024-gpt-4o-google-gemini-eu-ai-act-and-microsoft-ai-powered-pcs/'
+    - title: 'EU Introduces LLM Compliance Checker'
+      detail: 'Tool helps verify AI Act compliance'
+      url: 'https://www.euronews.com/next/2024/10/16/are-ai-companies-complying-with-the-eu-ai-act-a-new-llm-checker-can-find-out'
 
   challenges:
-    - title: "Regulatory Compliance"
-      detail: "Increasing global scrutiny"
-    - title: "Model Safety"
-      detail: "Ongoing bias concerns"
-    - title: "Resource Constraints"
-      detail: "Computing limitations"
+    - title: 'FTC Launches AI Investment Inquiry'
+      detail: 'Federal investigation into major AI partnerships begins'
+      url: 'https://www.ftc.gov/news-events/news/press-releases/2024/01/ftc-launches-inquiry-generative-ai-investments-partnerships'
+    - title: 'AI Deepfake Concerns in Political Campaigns'
+      detail: 'Reports of AI-generated images in voter targeting'
+      url: 'https://www.thedrum.com/news/2024/03/08/weekly-ai-recap-anthropic-and-inflection-ai-both-launch-models-rivaling-gpt-4'
