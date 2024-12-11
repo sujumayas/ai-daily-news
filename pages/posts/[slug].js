@@ -1,5 +1,5 @@
 import { getPostBySlug, getAllPosts } from '../../lib/api';
-import { TrendingUp, Cpu, Link2, Shield } from 'lucide-react';
+import { TrendingUp, Cpu, Link2, Shield, ExternalLink } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 // Constants for reusable styles
@@ -21,7 +21,9 @@ const STYLES = {
     wrapper: "py-4 first:pt-2 last:pb-2",
     header: "flex justify-between items-start mb-2 gap-4",
     title: "font-medium text-gray-900",
-    detail: "text-sm text-gray-600"
+    detail: "text-sm text-gray-600 mb-2",
+    link: "inline-flex items-center gap-1 text-sm text-blue-600 hover:text-blue-800 transition-colors",
+    linkIcon: "w-4 h-4"
   },
   page: {
     wrapper: "min-h-screen bg-gray-50/50",
@@ -58,13 +60,24 @@ const SectionCard = ({ title, icon: Icon, children }) => (
 );
 
 // Component for individual news items
-const NewsItem = ({ title, detail, impact }) => (
+const NewsItem = ({ title, detail, impact, url }) => (
   <div className={STYLES.newsItem.wrapper}>
     <div className={STYLES.newsItem.header}>
       <h3 className={STYLES.newsItem.title}>{title}</h3>
       {impact && <ImpactBadge impact={impact} />}
     </div>
     <p className={STYLES.newsItem.detail}>{detail}</p>
+    {url && (
+      <a 
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={STYLES.newsItem.link}
+        aria-label={`Read more about ${title}`}
+      >
+        Read more <ExternalLink className={STYLES.newsItem.linkIcon} />
+      </a>
+    )}
   </div>
 );
 
