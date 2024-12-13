@@ -1,0 +1,46 @@
+metadata:
+  date: '2024-12-13'
+  title: 'AI News Update - December 13, 2024'
+  excerpt: 'Google Gemini 1.5 Pro leads benchmark rankings while UK regulators scrutinize major AI partnerships'
+  slug: '2024-12-13'
+
+dashboard:
+  marketMoves:
+    - title: 'UK Regulators Examine Microsoft-Amazon AI Partnerships'
+      detail: 'British antitrust watchdog investigates tech giants'' AI collaborations'
+      impact: 'high'
+      url: 'https://www.cnbc.com/2024/04/24/microsoft-amazon-ai-partnerships-face-scrutiny-from-british-regulators.html'
+    - title: 'FTC Launches AI Investment Inquiry'
+      detail: 'Federal investigation into major AI partnerships and investments'
+      impact: 'high'
+      url: 'https://www.ftc.gov/news-events/news/press-releases/2024/01/ftc-launches-inquiry-generative-ai-investments-partnerships'
+    - title: 'Mistral Expands Open-Source AI Offerings'
+      detail: 'New features and model updates challenge proprietary AI'
+      impact: 'medium'
+      url: 'https://www.digitaltrends.com/computing/mistral-le-chat-ai-ready-take-on-chatgpt-and-claude/'
+
+  modelPerformance:
+    - title: 'Gemini 1.5 Pro Tops AI Benchmarks'
+      detail: 'Outperforms GPT-4 and Claude-3 in recent tests'
+      impact: 'high'
+      url: 'https://www.cryptotimes.io/2024/08/02/gemini-1-5-pro-surpasses-gpt-4o-and-claude-3-in-ai-benchmarks/'
+    - title: 'Claude 3 Excels in Output Quality'
+      detail: 'Shows superior performance in natural language generation'
+      impact: 'medium'
+      url: 'https://favourkelvin17.medium.com/claude-3-vs-gpt-4-vs-gemini-2024-which-is-better-93c2607bf2fd'
+
+  keyIntegrations:
+    - title: 'Anthropic Launches AI Agents'
+      detail: 'New AI tools complete complex computer tasks autonomously'
+      url: 'https://www.cnbc.com/2024/10/22/anthropic-announces-ai-agents-for-complex-tasks-racing-openai.html'
+    - title: 'EU Introduces LLM Compliance Checker'
+      detail: 'Tool helps verify AI Act compliance for companies'
+      url: 'https://www.euronews.com/next/2024/10/16/are-ai-companies-complying-with-the-eu-ai-act-a-new-llm-checker-can-find-out'
+
+  challenges:
+    - title: 'AI Investment Scrutiny Intensifies'
+      detail: 'Regulatory bodies examine AI partnerships and funding'
+      url: 'https://www.ftc.gov/news-events/news/press-releases/2024/01/ftc-launches-inquiry-generative-ai-investments-partnerships'
+    - title: 'Model Access Costs Remain High'
+      detail: 'Advanced AI models pricing challenges smaller organizations'
+      url: 'https://encord.com/blog/gpt-4o-vs-gemini-vs-claude-3-opus/'
