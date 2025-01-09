@@ -1,0 +1,42 @@
+metadata:
+  date: '2025-01-09'
+  title: 'AI News Update - January 9, 2025'
+  excerpt: 'Microsoft-Mistral partnership faces regulatory scrutiny while Google Gemini sets new performance benchmarks across AI landscape'
+  slug: '2025-01-09'
+
+dashboard:
+  marketMoves:
+    - title: 'Microsoft-Mistral Partnership Under Regulatory Review'
+      detail: 'British regulators scrutinize AI model deployment on Azure cloud'
+      impact: 'high'
+      url: 'https://www.cnbc.com/2024/04/24/microsoft-amazon-ai-partnerships-face-scrutiny-from-british-regulators.html'
+    - title: 'Mistral AI Valuation Soars Above €5 Billion'
+      detail: 'French startup secures €500 million in funding round'
+      impact: 'high'
+      url: 'https://medium.com/@rohitobrai11/the-llm-landscape-in-2024-a-detailed-comparison-of-the-latest-models-from-openai-anthropic-meta-f6baa77f7353'
+
+  modelPerformance:
+    - title: 'Gemini 2.0 Leads in Benchmark Performance'
+      detail: 'Outperforms GPT-4 and Claude-3 in LMSYS testing'
+      impact: 'high'
+      url: 'https://cointelegraph.com/news/google-gemini-ai-model-dominates-benchmarks-beats-gpt-4o-claude-3'
+    - title: 'Codestral Launch Shows Promise in Code Generation'
+      detail: 'Surpasses Meta Llama3 70B in HumanEval benchmarks'
+      impact: 'medium'
+      url: 'https://en.wikipedia.org/wiki/Mistral_AI'
+
+  keyIntegrations:
+    - title: 'Google Expands AI Features Across Product Line'
+      detail: 'Gemini features added to search, documents, and maps'
+      url: 'https://www.cnbc.com/2024/03/30/fomo-drives-tech-heavyweights-to-invest-billions-in-generative-ai-.html'
+    - title: 'Anthropic Launches Enterprise Solution'
+      detail: 'New Claude Enterprise targets large organization deployment'
+      url: 'https://www.analyticsvidhya.com/blog/2024/12/generative-ai-developments/'
+
+  challenges:
+    - title: 'AI Model Access Costs Remain High'
+      detail: 'Expanded context windows increase computational expenses'
+      url: 'https://encord.com/blog/gpt-4o-vs-gemini-vs-claude-3-opus/'
+    - title: 'Regulatory Oversight Intensifies in AI Sector'
+      detail: 'British authorities increase scrutiny of AI partnerships'
+      url: 'https://www.cnbc.com/2024/04/24/microsoft-amazon-ai-partnerships-face-scrutiny-from-british-regulators.html'
