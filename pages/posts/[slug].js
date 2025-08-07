@@ -103,7 +103,7 @@ export default function Post({ post }) {
         <div className={STYLES.page.grid}>
           {DASHBOARD_SECTIONS.map(({ id, title, icon }) => (
             <SectionCard key={id} title={title} icon={icon}>
-              {dashboard[id].map((item, index) => (
+              {(dashboard?.[id] ?? []).map((item, index) => (
                 <NewsItem key={index} {...item} />
               ))}
             </SectionCard>
