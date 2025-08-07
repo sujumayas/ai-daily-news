@@ -2,7 +2,7 @@ import { TrendingUp, Zap, GitBranch, AlertCircle } from 'lucide-react';
 
 export default function Dashboard({ data }) {
   const sections = [
-    { title: 'Market Movements', icon: TrendingUp, data: data.marketMoves },
+    { title: 'Market Moves', icon: TrendingUp, data: data.marketMoves },
     { title: 'Model Performance', icon: Zap, data: data.modelPerformance },
     { title: 'Key Integrations', icon: GitBranch, data: data.keyIntegrations },
     { title: 'Challenges', icon: AlertCircle, data: data.challenges }
