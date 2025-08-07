@@ -2,36 +2,39 @@
   "name": "ai-daily-news",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write .",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --env=node",
     "postinstall": "next build"
   },
   "dependencies": {
-    "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-separator": "^1.0.3",
+    "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
+    "date-fns": "^2.30.0",
+    "lucide-react": "^0.263.1",
     "next": "14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "yaml": "^2.3.4",
-    "date-fns": "^2.30.0",
-    "lucide-react": "^0.263.1",
     "tailwind-merge": "^2.0.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "yaml": "^2.3.4"
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^4.41.3",
     "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.32",
-    "tailwindcss": "^3.3.6",
     "eslint": "^8.0.0",
     "eslint-config-next": "^14.0.4",
+    "jest": "^30.0.5",
+    "postcss": "^8.4.32",
     "prettier": "^3.0.0",
-    "prettier-plugin-tailwindcss": "^0.5.0"
+    "prettier-plugin-tailwindcss": "^0.5.0",
+    "tailwindcss": "^3.3.6"
   }
 }
