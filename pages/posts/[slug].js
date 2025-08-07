@@ -81,7 +81,9 @@ const NewsItem = ({ title, detail, impact, url }) => (
   </div>
 );
 
-// Main dashboard sections configuration
+// Main dashboard sections configuration.
+// Each `id` must align with a key in the post's YAML `dashboard` object
+// (e.g., `marketMoves`, `modelPerformance`).
 const DASHBOARD_SECTIONS = [
   { id: 'marketMoves', title: 'Market Moves', icon: TrendingUp },
   { id: 'modelPerformance', title: 'Model Performance', icon: Cpu },
